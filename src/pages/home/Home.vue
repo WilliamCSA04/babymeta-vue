@@ -1,6 +1,12 @@
 <template>
   <div class="home">
     <Icon />
+    <a href="https://www.babymetal.com/en/">
+      <figure>
+        <img src="../../assets/babymetal-icon.png" alt="babymetal website" />
+      </figure>
+    </a>
+    <Icon />
   </div>
 </template>
 
