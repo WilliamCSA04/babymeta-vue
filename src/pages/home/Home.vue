@@ -1,12 +1,25 @@
 <template>
   <div class="home">
-    <Icon />
-    <a href="https://www.babymetal.com/en/">
-      <figure>
-        <img src="../../assets/babymetal-icon.png" alt="babymetal website" />
-      </figure>
-    </a>
-    <Icon />
+    <div class="absolute">
+      <ul class="list">
+        <li>
+          <Icon />
+        </li>
+        <li>
+          <a href="https://www.babymetal.com/en/" class="icon-size">
+            <figure>
+              <img
+                src="../../assets/babymetal-icon.png"
+                alt="babymetal website"
+              />
+            </figure>
+          </a>
+        </li>
+        <li>
+          <Icon />
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -27,5 +40,32 @@ export default {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.icon-size {
+  display: block;
+  width: 6em;
+  height: 6em;
+}
+.icon-size > figure {
+  width: 6em;
+  height: 6em;
+}
+.icon-size > figure > img {
+  width: 6em;
+  height: 6em;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>
