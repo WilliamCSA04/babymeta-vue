@@ -1,15 +1,17 @@
 <template>
   <div class="home">
+    <Icon />
   </div>
 </template>
 
 <script>
+import { Icon } from "../../components";
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: "Home",
+  components: {
+    Icon
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
