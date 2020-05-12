@@ -3,7 +3,7 @@
     href="https://www.youtube.com/channel/UC33_tIj4m1_XaqfFcomShvw"
     class="icon-link"
   >
-    <font-awesome-icon :icon="['fab', 'youtube']" size="5x" />
+    <font-awesome-icon :icon="['fab', iconName]" size="4x" />
   </a>
 </template>
 
@@ -15,10 +15,14 @@
   justify-content: center;
   align-items: center;
 }
+.icon-link > svg {
+  color: white;
+}
 </style>
 
 <script>
 export default {
-  name: "Icon"
+  name: "Icon",
+  props: ["iconName"]
 };
 </script>

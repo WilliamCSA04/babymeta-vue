@@ -3,7 +3,7 @@
     <div class="absolute">
       <ul class="list">
         <li>
-          <Icon />
+          <Icon iconName="youtube" />
         </li>
         <li>
           <a href="https://www.babymetal.com/en/" class="icon-size">
@@ -16,7 +16,7 @@
           </a>
         </li>
         <li>
-          <Icon />
+          <Icon iconName="spotify" />
         </li>
       </ul>
     </div>
@@ -65,7 +65,7 @@ export default {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 </style>
