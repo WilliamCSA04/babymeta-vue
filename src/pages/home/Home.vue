@@ -38,7 +38,7 @@ export default {
 .home {
   background-image: url("../../assets/babymetal-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 100vh;
   width: 100%;
   position: relative;
