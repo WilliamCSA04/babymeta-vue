@@ -1,8 +1,5 @@
 <template>
-  <a
-    href="https://www.youtube.com/channel/UC33_tIj4m1_XaqfFcomShvw"
-    class="icon-link"
-  >
+  <a :href="to" class="icon-link" target="_blank">
     <font-awesome-icon :icon="['fab', iconName]" size="4x" />
   </a>
 </template>
@@ -23,6 +20,6 @@
 <script>
 export default {
   name: "Icon",
-  props: ["iconName"]
+  props: ["iconName", "to"]
 };
 </script>

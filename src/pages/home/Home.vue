@@ -3,7 +3,10 @@
     <div class="absolute">
       <ul class="list">
         <li>
-          <Icon iconName="youtube" />
+          <Icon
+            iconName="youtube"
+            to="https://www.youtube.com/channel/UC33_tIj4m1_XaqfFcomShvw"
+          />
         </li>
         <li>
           <a href="https://www.babymetal.com/en/" class="icon-size">
@@ -16,7 +19,10 @@
           </a>
         </li>
         <li>
-          <Icon iconName="spotify" />
+          <Icon
+            iconName="spotify"
+            to="https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq?si=J32MoYc7QVqu8WZ9qBBWdA"
+          />
         </li>
       </ul>
     </div>
